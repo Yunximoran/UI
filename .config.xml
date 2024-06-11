@@ -1,0 +1,37 @@
+<config>
+    <ui_base abspath="D:\Code\python\UI">
+        <menu>
+            <menu_struct>
+                <file>None</file>
+                <tools>
+                    <add_application>event_tools_add_application</add_application>
+                    <pop_application>event_tools_pop_application</pop_application>
+                </tools>
+                <setting>event_setting</setting>
+                <help>event_help</help>
+            </menu_struct>
+        </menu>
+    </ui_base>
+    <mysql>
+        <host>localhost</host>
+        <port>3306</port>
+        <user>root</user>
+        <pass>ranxi160259</pass>
+        <database>ui_data</database>
+    </mysql>
+</config>
+
+<!--        self.MENU = {-->
+<!--            "file": None,-->
+<!--            "tool": {-->
+<!--                "add application": self.tools_add_application_event,-->
+<!--                "remove application": None,-->
+<!--                "func3": None-->
+<!--            },-->
+<!--            "setting": None,-->
+<!--            # "setting": {-->
+<!--            #     'background': self.background_event,-->
+<!--            #     "conf": None,   # 这里要弹出一个对话框，修改程序设置-->
+<!--            # },-->
+<!--            "help": self.help_event,-->
+<!--        }-->
